@@ -2,8 +2,7 @@
 
 # Project Title
 
-* **One Sentence Summary**
-This repository holds an attempt to apply RandomForestClassifer to predict software defects using synthetic data from the "Binary Classification with a Software Defects Dataset" Kaggle challenge
+* This repository holds an attempt to apply RandomForestClassifer to predict software defects using synthetic data from the "Binary Classification with a Software Defects Dataset" Kaggle challenge
 ((https://www.kaggle.com/competitions/playground-series-s3e23/overview)). 
 
 ## Overview
@@ -13,8 +12,6 @@ This repository holds an attempt to apply RandomForestClassifer to predict softw
 * The model was able to predict software defects within 66%. Although almost passing and taking into consideration the class imbalance, I believe more could have been done to achieve better results. 
 
 ## Summary of Workdone
-
-Include only the sections that are relevant an appropriate.
 
 ### Data
 
@@ -34,6 +31,12 @@ Include only the sections that are relevant an appropriate.
 #### Data Visualization
 
 Show a few visualization of the data and say a few words about what you see.
+![](trainBeforePic.png)
+* Picture of the histograms of all features before any processing.
+![](cleanAfter.png)
+* Picture of the histograms of all features after cleaning using IQR only. Data is much more concise after cleaning.
+![](scaleBeforeCleanPic.png)
+* Picture of the histograms of all features after cleaning then scaling. Excluding id, data seems more similar to the cleaning only, with the exception of the values and range of values.
 
 ### Problem Formulation
 
@@ -79,9 +82,10 @@ Show a few visualization of the data and say a few words about what you see.
   * AUC-ROC: Measures models ability to tell apart classes at different thresholds.
   * Confusion Matrix: Gives insight into false positives and negatives.
 * Show/compare results in one table.
-  * 
+![](tableFeatures.png)
 * Show one (or few) visualization(s) of results, for example ROC curves.
-  * 
+![](scaleBeforeROC.png)
+![](conf.png)
 
 ### Conclusions
 
@@ -103,9 +107,9 @@ Show a few visualization of the data and say a few words about what you see.
 
 ## How to reproduce results
 
-1.) Download all relevant files from this repository (Kaggle Tabular Data (1).ipynb, train.csv, test.csv)
-2.) Install relevant python packages (pandas, numpy, maplotlib, tabulate, seaborn, scikit-learn, IPython.display)
-3.) Run Kaggle Tabular Data (1).ipynb from start to finish in IDE
+* 1.) Download all relevant files from this repository (Kaggle Tabular Data (1).ipynb, train.csv, test.csv)
+* 2.) Install relevant python packages (pandas, numpy, maplotlib, tabulate, seaborn, scikit-learn, IPython.display)
+* 3.) Run Kaggle Tabular Data (1).ipynb from start to finish in IDE
 
 ### Software Setup
 * pandas
@@ -122,10 +126,10 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Training
 
-1.) Prepare data
+* 1.) Prepare data
   * id and defects are removed
   * Process the data through cleaning (IQR) and scaling (MinMaxScaler)
-2.) Training
+* 2.) Training
   * Split data 60-20-20
   * Train a RandomForestClassifier with class_weight = 'balanced'
   * Evaluate performance usign accuracy, confusion matrix, classification report, and ROC curve.
