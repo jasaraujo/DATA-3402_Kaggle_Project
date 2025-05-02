@@ -31,11 +31,11 @@
 #### Data Visualization
 
 Show a few visualization of the data and say a few words about what you see.
-![](trainBeforePic.png)
+![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/trainBeforePic.png)
 * Picture of the histograms of all features before any processing.
-![](cleanAfter.png)
+![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/cleanAfter.png)
 * Picture of the histograms of all features after cleaning using IQR only. Data is much more concise after cleaning.
-![](scaleBeforeCleanPic.png)
+![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/scaleBeforeCleanPic.png)
 * Picture of the histograms of all features after cleaning then scaling. Excluding id, data seems more similar to the cleaning only, with the exception of the values and range of values.
 
 ### Problem Formulation
@@ -82,10 +82,10 @@ Show a few visualization of the data and say a few words about what you see.
   * AUC-ROC: Measures models ability to tell apart classes at different thresholds.
   * Confusion Matrix: Gives insight into false positives and negatives.
 * Show/compare results in one table.
-![](tableFeatures.png)
+![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/tableFeatures.png)
 * Show one (or few) visualization(s) of results, for example ROC curves.
-![](scaleBeforeROC.png)
-![](conf.png)
+![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/scaleBeforeROC.png)
+![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/conf.png)
 
 ### Conclusions
 
