@@ -9,7 +9,7 @@
 
 * The task, as defined by the Kaggle challenge is to use 23 features (target included) of software metrics to predict software defects.
 * The approach in this repository formulates the problem as a binary classification task using a Random Forest Classifier. The data is processed through cleaning, scaling, and is trained and evaluated through test splits and accuracy methods.
-* The model was able to predict software defects within 66%. Although almost passing and taking into consideration the class imbalance, I believe more could have been done to achieve better results. 
+* The model was able to predict software defects within 66% using RandomForestClassifier. With the best on Kaggle being around 81% - 83%.  
 
 ## Summary of Workdone
 
