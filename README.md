@@ -1,6 +1,6 @@
 ![](UTA-DataScience-Logo.png)
 
-# Project Title
+# Software Defect Prediction
 
 * This repository holds an attempt to apply RandomForestClassifer to predict software defects using synthetic data from the "Binary Classification with a Software Defects Dataset" Kaggle challenge
 ((https://www.kaggle.com/competitions/playground-series-s3e23/overview)). 
