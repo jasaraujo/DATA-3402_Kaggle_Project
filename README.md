@@ -31,12 +31,13 @@
 #### Data Visualization
 
 Show a few visualization of the data and say a few words about what you see.
-![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/trainBeforePic.png)
+
 * Picture of the histograms of all features before any processing.
-![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/cleanAfter.png)
+  ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/trainBeforePic.png)
 * Picture of the histograms of all features after cleaning using IQR only. Data is much more concise after cleaning.
-![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/scaleBeforeCleanPic.png)
+  ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/cleanAfter.png)
 * Picture of the histograms of all features after cleaning then scaling. Excluding id, data seems more similar to the cleaning only, with the exception of the values and range of values.
+  ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/scaleBeforeCleanPic.png)
 
 ### Problem Formulation
 
