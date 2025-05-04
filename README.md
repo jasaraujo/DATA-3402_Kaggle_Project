@@ -18,8 +18,10 @@
 * Data Type: 
   * Input: CSV file of data with multiple numeric features.
   * Output: Binary classification (defects column), where 1 indicates a defect and 0 indicates no defect.
-* Size: A (101763 rows, 23 column) size CSV file, taking 10.4 MB.
-* Instances (Train, Test, Validation Split): how many data points? 60% training, 20% testing, 20% validation.
+* Size:
+  * A (101763 rows, 23 column) size CSV file, taking 10.4 MB.
+* Instances (Train, Test, Validation Split):
+  * 60% training, 20% testing, 20% validation.
 
 #### Preprocessing / Clean up
 
@@ -37,10 +39,11 @@
 
 ### Problem Formulation
 
-* Input / Output : Data from CSV (excluding id and defects) / Binary label defects.
-* Models
+* Input / Output :
+  * Data from CSV (excluding id and defects) / Binary label defects.
+* Models :
   * Random Forest Classifier : Simplicity, Ability to handle imbalanced data, interpretability. 
-* Loss, Optimizer, other Hyperparameters.
+* Loss, Optimizer, other Hyperparameters :
   * n_estimators = 100 (number of trees)
   * max_depth = 5 (limits depth to reduce overfitting)
   * max_features = 1 (number of features at each split)
@@ -73,7 +76,18 @@
   * Confusion Matrix: Gives insight into false positives and negatives.
 * Show/compare results.
   
-![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/tableFeatures.png)
+| Metric        | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| 0             | 0.93      | 0.69   | 0.79     | 6670    |
+| 1             | 0.12      | 0.44   | 0.19     | 632     |
+| Accuracy      |           |        | 0.67     | 7302    |
+| Macro Avg     | 0.52      | 0.57   | 0.49     | 7302    |
+| Weighted Avg  | 0.86      | 0.67   | 0.74     | 7302    |
+
+RFC Cross-Validation Scores: [0.6409 0.6585 0.6726 0.6729 0.7039]
+
+Avg Accuracy: 0.6698
+
 * Result visualizations.
 
 ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/scaleBeforeROC.png)
@@ -81,10 +95,9 @@
 
 ### Conclusions
 
-* State any conclusions you can infer from your work.
-  * The class imbalance issue severely impacted my modeling, and it could have been handled better.
-  * The order of cleaning and scaling matter when modeling, especially when looking for the best results.
-  * Cross-validation, scores and reports help provide estimates to give some confirmation to results.
+* The class imbalance issue severely impacted my modeling, and it could have been handled better.
+* The order of cleaning and scaling matter when modeling, especially when looking for the best results.
+* Cross-validation, scores and reports help provide estimates to give some confirmation to results.
 
 ### Future Work
 
