@@ -2,8 +2,7 @@
 
 # Software Defect Prediction
 
-* This repository holds an attempt to apply RandomForestClassifer to predict software defects using synthetic data from the "Binary Classification with a Software Defects Dataset" Kaggle challenge
-((https://www.kaggle.com/competitions/playground-series-s3e23/overview)). 
+* This repository holds an attempt to apply RandomForestClassifer to predict software defects using synthetic data from the ["Binary Classification with a Software Defects Dataset"](https://www.kaggle.com/competitions/playground-series-s3e23/overview) Kaggle challenge.
 
 ## Overview
 
@@ -32,7 +31,7 @@
 #### Data Visualization
 
 
-* Picture of the histograms of all features before any processing.
+* Picture of the histograms of all features before any processing. (Better visual within notebook.)
   ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/trainBeforePic.png)
 * Picture of the histograms of all features after cleaning then scaling. Excluding id, data seems more similar to the cleaning only, with the exception of the values and range of values.
   ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/scaleBeforeCleanPic.png)
@@ -125,7 +124,7 @@ Avg Accuracy: 0.6698
 
 ### Data
 
-* (https://www.kaggle.com/competitions/playground-series-s3e23/overview)
+* [Link to Kaggle challenge data.](https://www.kaggle.com/competitions/playground-series-s3e23/overview)
 
 ### Training
 
