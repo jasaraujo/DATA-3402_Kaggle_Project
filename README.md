@@ -74,6 +74,7 @@
 * Show/compare results.
 ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/tableFeatures.png)
 * Result visualizations.
+
 ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/scaleBeforeROC.png)
 ![](https://github.com/jasaraujo/DATA-3402_Kaggle_Project/blob/main/conf.png)
 
