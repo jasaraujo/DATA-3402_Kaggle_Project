@@ -109,7 +109,7 @@ Avg Accuracy: 0.6698
 
 ## How to reproduce results
 
-* 1.) Download all relevant files from this repository (Kaggle Tabular Data (1).ipynb, train.csv, test.csv)
+* 1.) Download all relevant files from this repository (Kaggle Tabular Data (2).ipynb, train.csv, test.csv)
 * 2.) Install relevant python packages (pandas, numpy, maplotlib, tabulate, seaborn, scikit-learn, IPython.display)
 * 3.) Run Kaggle Tabular Data (1).ipynb from start to finish in IDE
 
